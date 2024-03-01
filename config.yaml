@@ -1,0 +1,31 @@
+GPT_model: "model/paimeng2-e10.ckpt"
+SoVITS_model: "model/paimeng2_e25_s36350.pth"
+how_to_cut: 0  # 0：不切 1：凑四句一切 2：凑50字一切 3：按中文句号。切 4：按英文句号.切 5：按标点符号切
+top_k: 20
+top_p: 0.6
+temperature: 0.6
+ref_dict:
+  一般:
+    Path: "ref_audio/normal.wav"
+    Text: "既然罗莎莉亚说足迹上有元素力，用元素视野应该能很清楚地看到吧。"
+  惊讶:
+    Path: "ref_audio/surprised.wav"
+    Text: "这个声音是…一斗！你怎么在这里啊？"
+  高兴:
+    Path: "ref_audio/excited.wav"
+    Text: "好耶！《特尔克西的奇幻历险》出发咯！"
+  悲伤:
+    Path: "ref_audio/sad.wav"
+    Text: "呜…别这么伤心…我们会找到他们的！往好的一面想吧！"
+  喜好:
+    Path: "ref_audio/like.wav"
+    Text: "豪华礼物！听、听上去就很值钱！"
+  厌恶:
+    Path: "ref_audio/dislike.wav"
+    Text: "说了半天，这不还是面子的问题吗！"
+  愤怒:
+    Path: "ref_audio/angry.wav"
+    Text: "生气—呜哇好生气啊！不要把我跟一斗相提并论！"
+  恐惧:
+    Path: "ref_audio/fear.wav"
+    Text: "我还以为见不到你了！你突然就消失了呀！"
