@@ -1,3 +1,6 @@
+import sys, os
+sys.path.append(os.path.dirname(__file__))
+
 import logging
 import re
 from transformers import AutoModelForMaskedLM, AutoTokenizer

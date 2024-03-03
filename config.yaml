@@ -25,7 +25,7 @@ ref_dict:
     Text: "说了半天，这不还是面子的问题吗！"
   愤怒:
     Path: "ref_audio/angry.wav"
-    Text: "生气—呜哇好生气啊！不要把我跟一斗相提并论！"
+    Text: "呜哇好生气啊！不要把我跟一斗相提并论！"
   恐惧:
     Path: "ref_audio/fear.wav"
     Text: "我还以为见不到你了！你突然就消失了呀！"
