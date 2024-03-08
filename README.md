@@ -12,6 +12,8 @@
 ```shell
 pip install modelscope
 ```
+同时还需正确配置FFmpeg。
+
 ### 配置预训练模型
 与 [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 中相同，需要将预训练模型放置于 `GPT_SoVITS/pretrained_models` 目录
 
